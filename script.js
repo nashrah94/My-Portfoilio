@@ -11,7 +11,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // Active navigation highlighting on scroll
 const sections = document.querySelectorAll('section[id]');
-const navLinks = document.querySelectorAll('.nav-links a');
+const navLinks = document.querySelectorAll('.nav-menu a');
 
 window.addEventListener('scroll', () => {
     let current = '';
